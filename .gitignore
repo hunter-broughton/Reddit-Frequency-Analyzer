@@ -1,0 +1,48 @@
+# Java compiled class files
+*.class
+
+# Java package files
+*.jar
+*.war
+*.ear
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Large data files (too big for GitHub)
+reddit_comments_*.txt
+
+# Generated output files (analysis results)
+reddit_comments_*_written.txt
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Maven/Gradle
+target/
+build/
+.gradle/
+
+# Documentation output
+docs/
+javadoc/
