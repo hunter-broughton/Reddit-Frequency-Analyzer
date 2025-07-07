@@ -140,11 +140,7 @@ To analyze a different year's Reddit data:
 
 ### Available Data Files
 
-The following Reddit comment datasets are included:
-
-- `reddit_comments_2008.txt` through `reddit_comments_2015.txt`
-- Each file contains thousands of Reddit comments from that year
-- File sizes range from hundreds of MB to several GB
+**Note:** Reddit comment data files are not included in this repository due to GitHub's file size limitations. You need to obtain these files separately and place them in the project directory.
 
 ### Running Tests
 
@@ -271,14 +267,6 @@ Generates detailed reports of:
 - AVL Tree includes full rotation logic for self-balancing
 - Comprehensive error handling and input validation
 - Thread-safe implementations where appropriate
-
-## Memory Requirements
-
-For processing large Reddit comment files:
-
-- Minimum: 2GB RAM (`-Xmx2g`)
-- Recommended: 4GB RAM (`-Xmx4g`)
-- Performance testing: 8GB RAM (`-Xmx8g`)
 
 ## Educational Goals
 
