@@ -1,29 +1,36 @@
 # Reddit Word Frequency Analyzer
 
+[![GitHub release](https://img.shields.io/github/v/release/hunter-broughton/Reddit-Frequency-Analyzer)](https://github.com/hunter-broughton/Reddit-Frequency-Analyzer/releases)
+[![Data Available](https://img.shields.io/badge/Reddit%20Data-Available-brightgreen)](https://github.com/hunter-broughton/Reddit-Frequency-Analyzer/releases/latest)
+[![Java](https://img.shields.io/badge/Java-8%2B-orange)](https://www.oracle.com/java/)
+
 **Author:** Hunter Broughton  
-**Course:** CS231A  
+**Course:** CS231A Data Structures and Algorithms  
+**Institution:** Colby College  
 **Date:** April 2023
+
+## 🚀 Quick Download
+
+**📦 Get the Reddit Data Files:**
+- [📥 Small Package (37MB)](https://github.com/hunter-broughton/Reddit-Frequency-Analyzer/releases/download/v1.0/reddit-data-small.zip) - 2008 data, perfect for testing
+- [📥 Medium Package (336MB)](https://github.com/hunter-broughton/Reddit-Frequency-Analyzer/releases/download/v1.0/reddit-data-medium.zip) - 2008-2011 data, most popular
+- [📥 Complete Package (700MB)](https://github.com/hunter-broughton/Reddit-Frequency-Analyzer/releases/download/v1.0/reddit-data-complete.zip) - All years 2008-2015
+
+**🔗 [View All Releases](https://github.com/hunter-broughton/Reddit-Frequency-Analyzer/releases)**
+
+## 📚 Table of Contents
+- [🚀 Quick Start](#quick-start)
+- [📦 Data Files](#getting-the-reddit-data-files)
+- [🏗️ Features](#features)
+- [🔧 Usage](#usage)
+- [📊 Performance](#performance-results)
+- [🧪 Testing](#running-tests)
 
 ## Project Overview
 
 This project implements and compares three different data structures (Binary Search Tree, HashMap, and AVL Tree) to analyze word frequency patterns in Reddit comment data from 2008-2015. The implementation demonstrates the performance characteristics of different data structures when processing large datasets.
 
-## Reddit Data Files
-
-**Important**: The Reddit comment data files are not included in this repository due to GitHub's file size limitations (files are 200MB+ each).
-
-### Required Data Files
-
-You need to obtain the following files and place them in the project directory:
-
-- `reddit_comments_2008.txt` - Reddit comments from 2008
-- `reddit_comments_2009.txt` - Reddit comments from 2009
-- `reddit_comments_2010.txt` - Reddit comments from 2010
-- `reddit_comments_2011.txt` - Reddit comments from 2011 (**default**)
-- `reddit_comments_2012.txt` - Reddit comments from 2012
-- `reddit_comments_2013.txt` - Reddit comments from 2013
-- `reddit_comments_2014.txt` - Reddit comments from 2014
-- `reddit_comments_2015.txt` - Reddit comments from 2015
+> **💡 Data files are available as downloadable packages above - no complex setup required!**
 
 ### Data Format
 
